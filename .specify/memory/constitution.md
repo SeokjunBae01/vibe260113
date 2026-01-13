@@ -10,9 +10,9 @@ Sync Impact Report:
 - Added sections: `Non-Functional Requirements`, `Content Policy`
 - Removed sections: None
 - Templates requiring updates:
-  - `.specify/templates/plan-template.md` (⚠ pending)
-  - `.specify/templates/spec-template.md` (⚠ pending)
-  - `.specify/templates/tasks-template.md` (⚠ pending)
+  - `.specify/templates/plan-template.md` (✅ aligned)
+  - `.specify/templates/spec-template.md` (✅ aligned)
+  - `.specify/templates/tasks-template.md` (✅ aligned)
 - Follow-up TODOs: None
 -->
 # Anonymous Advice Board Constitution
@@ -20,7 +20,7 @@ Sync Impact Report:
 ## Core Principles
 
 ### I. Absolute Anonymity
-The service MUST operate without any user login or account creation. User identification is temporary and browser-based (e.g., using Cookies or LocalStorage). No personally identifiable information (PII) such as names, emails, or phone numbers SHALL be stored. The server MUST NOT log IP addresses in a way that can be linked to user activity.
+The service MUST operate without any user login or account creation. User identification is temporary and browser-based (using Cookies or LocalStorage). No personally identifiable information (PII) such as names, emails, or phone numbers SHALL be stored. The server MUST NOT log IP addresses in a way that can be linked to user activity.
 
 ### II. Simplicity and Speed
 The user experience MUST be straightforward, focusing on core features (posting, reading, commenting). The application MUST be a Single Page Application (SPA) with an initial load time under 5 seconds and API responses under 1 second. Unnecessary animations and complex features like nested comments are forbidden to maintain a lean and fast interface.
